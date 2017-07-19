@@ -50,7 +50,26 @@ body { width: 100%;}
 	flex: 1 0 auto;
 }
 
-header {background-color: darkorange;
-padding-top: 2%}
-header{color: white}
-li {color: darkorange}
+header {
+	background-color: darkorange;
+	padding-top: 2%;
+}
+
+header {color: white;}
+
+.instructions {
+	border-style: solid;
+	border-color: darkorange;
+border-width: 2px;
+	margin-top: 80px;
+color: darkorange;}
+
+
+.pull-right img {height: 200px;
+width: 150px; float: right; clear: both;
+}
+
+.pull-right img {align-items: center;}
+
+
+.container h1 {font-size: 50px; font-family: sans-serif;}
