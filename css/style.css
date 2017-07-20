@@ -65,3 +65,7 @@ html {font-family: sans-serif;}
 section {padding: 5rem 0;}
 
 section:nth-child(2) {background-color: lightgray; color: #555;}
+
+footer{background: black;
+color: lightgray;
+padding: 1rem 0;}
