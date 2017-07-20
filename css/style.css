@@ -52,24 +52,16 @@ body { width: 100%;}
 
 header {
 	background-color: darkorange;
-	padding-top: 2%;
+	padding: 2rem 0;
+	color: white;
 }
 
-header {color: white;}
+header h1 {color: white;
+font-size: 3.5rem; display: inline-block;
+margin: 0 2rem 0}
 
-.instructions {
-	border-style: solid;
-	border-color: darkorange;
-border-width: 2px;
-	margin-top: 80px;
-color: darkorange;}
+html {font-family: sans-serif;}
 
+section {padding: 5rem 0;}
 
-.pull-right img {height: 200px;
-width: 150px; float: right; clear: both;
-}
-
-.pull-right img {align-items: center;}
-
-
-.container h1 {font-size: 50px; font-family: sans-serif;}
+section:nth-child(2) {background-color: lightgray; color: #555;}
